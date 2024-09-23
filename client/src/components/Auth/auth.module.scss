@@ -1,0 +1,18 @@
+.wrap {
+    @apply flex justify-center h-[80vh] w-full #{!important};
+    .form {
+        @apply flex flex-col items-start justify-center h-3/4 w-fit #{!important};
+        input {
+            @apply border-2 border-blue-300 focus:border-blue-500 outline-none w-full #{!important};
+        }
+        .nav {
+            @apply flex justify-around w-full mt-3 #{!important};
+            a {
+                @apply mr-auto hover:text-blue-300 transition-colors duration-200 ease-in-out #{!important};
+            }
+            button {
+                @apply hover:text-blue-300 transition-colors duration-200 ease-in-out #{!important};
+            }
+        }
+    }
+}

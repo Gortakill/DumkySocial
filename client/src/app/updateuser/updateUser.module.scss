@@ -1,0 +1,8 @@
+.ChangeForm {
+    @apply flex justify-center items-center h-[50vh] #{!important};
+    form {
+        input {
+            @apply border-2 border-blue-300 focus:border-blue-500 outline-none w-full #{!important};
+        }
+    }
+}
