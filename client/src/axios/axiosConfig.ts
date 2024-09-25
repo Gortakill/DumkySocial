@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const instance = axios.create({
-    baseURL: 'http://localhost:5002',
+    baseURL: 'https://dumky-social-server-production.up.railway.app',
 });

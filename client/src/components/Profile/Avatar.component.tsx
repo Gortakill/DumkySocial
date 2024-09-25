@@ -14,7 +14,7 @@ export const Avatar = ({ avatar }: { avatar: string | null }) => {
             <label htmlFor="avatar-input">
                 {avatar !== null ? (
                     <img
-                        src={`http://localhost:5002/${avatar}`}
+                        src={`https://dumky-social-server-production.up.railway.app/${avatar}`}
                         alt="Avatar"
                         className="rounded-full object-cover size-60"
                     />

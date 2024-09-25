@@ -60,7 +60,7 @@ export const Unconfirmed = () => {
                         >
                             {user.userAvatar !== null ? (
                                 <img
-                                    src={`http://localhost:5002/${user.userAvatar}`}
+                                    src={`https://dumky-social-server-production.up.railway.app/${user.userAvatar}`}
                                     alt="Avatar"
                                     className="rounded-full object-cover size-20 mr-2"
                                 />

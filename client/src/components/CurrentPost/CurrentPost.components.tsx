@@ -13,7 +13,7 @@ export const CurrentPost = async ({ id }: Props) => {
         <div className="flex-col mt-5 items-center">
             <section className="flex items-center w-1/2 mx-auto justify-center mt-5 pt-5 pb-5 border-solid border-2 ">
                 <img
-                    src={`http://localhost:5002/${post.data.image}`}
+                    src={`https://dumky-social-server-production.up.railway.app/${post.data.image}`}
                     alt="nature"
                     width={300}
                 />

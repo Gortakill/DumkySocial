@@ -54,7 +54,7 @@ export const AddFriends = () => {
                 >
                     {user.avatar ? (
                         <img
-                            src={`http://localhost:5002/${user.avatar}`}
+                            src={`https://dumky-social-server-production.up.railway.app/${user.avatar}`}
                             alt="user"
                             className="mr-3 rounded-full object-cover size-20"
                         />

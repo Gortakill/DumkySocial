@@ -30,7 +30,7 @@ export const Post = () => {
                 <Link href={`/${post.id}`} key={post.id} className="container">
                     <section className="flex flex-col items-center mx-auto p-5 mb-2 hover:border-blue-500 border-solid border-2 transition-colors duration-300 ease-in-out sm:flex-row w-fit md:w-1/2">
                         <img
-                            src={`http://localhost:5002/${post.image}`}
+                            src={`https://dumky-social-server-production.up.railway.app/${post.image}`}
                             alt="nature"
                             width={200}
                         />

@@ -65,7 +65,7 @@ export const Profile = () => {
                         className="flex w-full justify-center mx-auto p-5 mb-5 border-gray-200 border-solid border-2"
                     >
                         <img
-                            src={`http://localhost:5002/${post.image}`}
+                            src={`https://dumky-social-server-production.up.railway.app/${post.image}`}
                             alt="nature"
                             className="w-1/2 h-1/2"
                         />

@@ -81,7 +81,7 @@ export const Message = () => {
                                     >
                                         {message.dto.avatar ? (
                                             <img
-                                                src={`http://localhost:5002/${message.dto.avatar}`}
+                                                src={`https://dumky-social-server-production.up.railway.app/${message.dto.avatar}`}
                                                 alt="user"
                                                 className="mr-3 rounded-full object-cover size-10"
                                             />
@@ -104,7 +104,7 @@ export const Message = () => {
                                 >
                                     {message.dto.avatar ? (
                                         <img
-                                            src={`http://localhost:5002/${message.dto.avatar}`}
+                                            src={`https://dumky-social-server-production.up.railway.app/${message.dto.avatar}`}
                                             alt="user"
                                             className="mr-3 rounded-full object-cover size-10"
                                         />

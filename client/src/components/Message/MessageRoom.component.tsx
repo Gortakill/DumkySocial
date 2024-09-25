@@ -73,7 +73,7 @@ export const MessageRoom = ({
                     >
                         {room.avatar ? (
                             <img
-                                src={`http://localhost:5002/${room.avatar}`}
+                                src={`https://dumky-social-server-production.up.railway.app/${room.avatar}`}
                                 alt="user"
                                 className="mr-3 rounded-full object-cover size-16"
                             />

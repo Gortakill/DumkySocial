@@ -33,7 +33,7 @@ export const UserFriends = () => {
                 >
                     {friend.avatar !== null ? (
                         <img
-                            src={`http://localhost:5002/${friend.avatar}`}
+                            src={`https://dumky-social-server-production.up.railway.app/${friend.avatar}`}
                             alt="Avatar"
                             className="rounded-full object-cover size-20 mr-2"
                         />
