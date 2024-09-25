@@ -32,8 +32,8 @@ export class PostController {
     }
 
     @Get()
-    getAllPosts() {
-        return this.postService.getAllPosts();
+    getAllPosts(@Req() req) {
+        return this.postService.getAllPosts(req.query.limit, req.query.page);
     }
 
     @Get('/byId/:postId')

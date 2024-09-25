@@ -32,9 +32,12 @@ export class PostService {
         }
     }
 
-    async getAllPosts() {
+    async getAllPosts(limit: number, page: number) {
         try {
-            const posts = await this.postRepository.findAll();
+            const posts = await this.postRepository.findAll({
+                limit,
+                offset: (page - 1) * limit,
+            });
             return posts;
         } catch (err) {
             throw new HttpException('Failed get posts', 500);

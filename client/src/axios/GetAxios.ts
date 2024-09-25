@@ -10,8 +10,8 @@ export const getPost = async (id: number) => {
     return responce;
 };
 
-export const getAllPosts = async () => {
-    const responce = await instance.get('/post');
+export const getAllPosts = async (page: number) => {
+    const responce = await instance.get(`/post?limit=5&page=${page}`);
     return responce;
 };
 
